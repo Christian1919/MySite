@@ -1,7 +1,4 @@
-
 // Cursor
-
-
 let cursor = document.getElementById('cursor')
 document.addEventListener('mousemove',function(e){
     var x = e.clientX
@@ -10,8 +7,6 @@ document.addEventListener('mousemove',function(e){
     cursor.style.top = y + 'px'
 })
 
-
-
 //Color 
 var colorWell = ""
 var defaultColor = "#c0392b"
@@ -19,7 +14,7 @@ var defaultColor = "#c0392b"
 window.addEventListener("load", startup, false)
 function startup() {
     colorWell = document.querySelector("#color")
-    colorWell.value = defaultColor
+    colorWell.value = defaultColor;
     colorWell.addEventListener("input", updateFirst, false)
     colorWell.addEventListener("change", updateAll, false)
     colorWell.select()

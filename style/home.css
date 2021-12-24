@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins.ttf") format("truetype");
+}
+
 body {
   background-color: #c0392b;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -29,7 +35,7 @@ main {
   background-color: #ffff;
   margin-top: 10px;
 }
-
+/* cursor*/
 #cursor {
   position: fixed;
   height: 40px;
