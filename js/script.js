@@ -9,7 +9,7 @@ document.addEventListener('mousemove',function(e){
 
 //Color 
 var colorWell = ""
-var defaultColor = "#c0392b"
+var defaultColor = "#54a0ff"
 
 window.addEventListener("load", startup, false)
 function startup() {
